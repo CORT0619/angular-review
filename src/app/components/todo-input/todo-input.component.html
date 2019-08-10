@@ -1,0 +1,11 @@
+<div class="todo-input">
+  <label for="add-todo">
+    <span>Add Todo:</span>
+    <input type="text" id="add-todo" #addTodo>
+  </label>
+  
+  <div>
+    <button (click)="todoAdd(addTodo.value)">Add Todo</button>
+  </div>
+</div>
+
